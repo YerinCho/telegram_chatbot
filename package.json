@@ -1,0 +1,27 @@
+{
+  "name": "telegram_chatbot",
+  "version": "1.0.0",
+  "description": "telegram bitcoin chatbot",
+  "main": "dist/index.js",
+  "repository": "https://github.com/YerinCho/telegram_chatbot.git",
+  "author": "yerincho <forjustice9839@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.2",
+    "node-schedule": "^2.1.0",
+    "node-telegram-bot-api": "^0.59.0",
+    "typescipt": "^1.0.0",
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.23",
+    "@types/node-schedule": "^2.1.0",
+    "@types/node-telegram-bot-api": "^0.57.1",
+    "ts-node": "^10.9.1"
+  }
+}
