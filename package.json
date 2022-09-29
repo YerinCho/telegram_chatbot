@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "start": "pm2 start dist/index.js"
+    "start": "pm2-runtime start dist/index.js"
   },
   "dependencies": {
     "axios": "^0.27.2",
@@ -16,8 +16,7 @@
     "node-schedule": "^2.1.0",
     "node-telegram-bot-api": "^0.59.0",
     "typescipt": "^1.0.0",
-    "typescript": "^4.8.4",
-    "yarn": "^1.22.19"
+    "typescript": "^4.8.4"
   },
   "devDependencies": {
     "@types/node": "^18.7.23",
